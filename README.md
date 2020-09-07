@@ -1,0 +1,2 @@
+# instahack-
+python3 hackinsta.py Please enter a username: harsh_1120 [*] 1 Passwords loads successfully [*] Do you want to use proxy (y/n): n [*] Please add delay between the bruteforce action (in seconds): 11  Traceback (most recent call last):   File "hackinsta.py", line 154, in &lt;module>     sess = instabrute.Login(password)   File "hackinsta.py", line 118, in Login     sess.headers.update({'X-CSRFToken' : r.cookies.get_dict()['csrftoken']}) KeyError: 'csrftoken'
